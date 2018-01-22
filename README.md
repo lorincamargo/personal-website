@@ -1,6 +1,8 @@
 # Lorin Camargo
 
-To run locally:
+Published site can be found [here](https://lorincamargo.github.io/personal-website/site)
+
+## To run locally:
 
 ```bash
 cd site
