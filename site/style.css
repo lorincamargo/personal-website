@@ -83,7 +83,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #2c053d;
+    background: #3d194b;
 }
 
 header .container {
@@ -182,7 +182,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #78058f;
 }
 
 @media(max-width:767px) {
@@ -457,5 +457,5 @@ footer .footer-below {
 }
 
 .navbar-default {
-    background-color: #86e28a;
+    background-color: #19191a;
 }
