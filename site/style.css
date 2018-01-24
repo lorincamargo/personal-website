@@ -64,7 +64,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #bd3d17;
+    background-color: #e28141;
 }
 
 hr.star-primary {
@@ -83,7 +83,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #8ecbee;
+    background: #6fbce9;
 }
 
 header .container {
@@ -182,7 +182,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #124461;
+    background: #075f92;
 }
 
 @media(max-width:767px) {
@@ -266,7 +266,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #3d194b;
+    color: #e28141;
     background: #fff;
 }
 
@@ -336,7 +336,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #7db9db;
+    background-color: #65b8e9;
 }
 
 footer .footer-col {
@@ -345,7 +345,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #417c9e;
+    background-color: #2f93ce;
 }
 
 .btn-social {
@@ -366,8 +366,8 @@ footer .footer-below {
 }
 
 .btn-success {
-    background-color: #bd3d17;
-    border-color: #bd3d17;
+    background-color: #e28141;
+    border-color: #e28141;
 }
 
 .scroll-top {
@@ -434,7 +434,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #270d31;
+    background-color: #e28141;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -444,14 +444,14 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #270d31;
+    background-color: #e28141;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 
 .navbar-nav>.active>a {
-    background-color: #bd3d17 !important;
+    background-color: #e28141 !important;
 }
 
 /* Fix modal mouse wheel issues */
@@ -474,7 +474,7 @@ h2.portfolio {
 }
 
 .btn-primary {
-    background-color: #bd3d17;
-    border-color: #bd3d17;
+    background-color: #e28141;
+    border-color: #e28141;
 }
 
