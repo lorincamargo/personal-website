@@ -64,7 +64,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #bd3d17;
 }
 
 hr.star-primary {
@@ -83,7 +83,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #3d194b;
+    background: #8ecbee;
 }
 
 header .container {
@@ -182,7 +182,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #643e6b;
+    background: #124461;
 }
 
 @media(max-width:767px) {
@@ -212,7 +212,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: #9bf898ab;
+    background: #0c0c0c70;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -319,7 +319,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color: #3d194b;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -336,7 +336,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #3d194b;
+    background-color: #7db9db;
 }
 
 footer .footer-col {
@@ -345,7 +345,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #270d31;
+    background-color: #417c9e;
 }
 
 .btn-social {
@@ -366,8 +366,8 @@ footer .footer-below {
 }
 
 .btn-success {
-    background-color: #83ce80;
-    border-color: #83ce80;
+    background-color: #bd3d17;
+    border-color: #bd3d17;
 }
 
 .scroll-top {
@@ -451,7 +451,7 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: #233140 !important;
+    background-color: #bd3d17 !important;
 }
 
 /* Fix modal mouse wheel issues */
@@ -466,9 +466,15 @@ footer .footer-below {
 }
 
 h2.contact {
-    color: #643e6b;
+    color: #19191a;
 }
 
 h2.portfolio {
-    color: #643e6b;
+    color: #19191a;
 }
+
+.btn-primary {
+    background-color: #bd3d17;
+    border-color: #bd3d17;
+}
+
