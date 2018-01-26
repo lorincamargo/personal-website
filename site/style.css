@@ -266,7 +266,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: rgb(34, 161, 240);
+    color: #19191a;
     background: #fff;
 }
 
