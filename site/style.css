@@ -83,7 +83,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #6fbce9;
+    background: #76C4F4;
 }
 
 header .container {
@@ -182,7 +182,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #075f92;
+    background: #2d2d2e;
 }
 
 @media(max-width:767px) {
@@ -336,7 +336,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #65b8e9;
+    background-color: rgb(101, 194, 252);
 }
 
 footer .footer-col {
@@ -345,7 +345,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #2f93ce;
+    background-color: rgb(79, 158, 207);
 }
 
 .btn-social {
@@ -444,14 +444,14 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #e28141;
+    background-color: #F49D82;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 
 .navbar-nav>.active>a {
-    background-color: #e28141 !important;
+    background-color: #F49D82 !important;
 }
 
 /* Fix modal mouse wheel issues */
@@ -474,10 +474,15 @@ h2.portfolio {
 }
 
 .btn-primary {
-    background-color: #e28141;
-    border-color: #e28141;
+    background-color: #F49D82;
+    border-color: #F49D82;
 }
 
 .descript-text {
     text-align: left;
 }
+
+h2.about {
+    color: #fdfb75;
+}
+
