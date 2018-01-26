@@ -366,8 +366,8 @@ footer .footer-below {
 }
 
 .btn-success {
-    background-color: rgb(34, 161, 240);
-    border-color: rgb(34, 161, 240);
+    background-color: rgb(22, 113, 218);
+    border-color: rgb(22, 113, 218));
 }
 
 .scroll-top {
@@ -451,7 +451,7 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: rgb(224, 126, 96) !important;
+    background-color: rgb(22, 113, 218) !important;
 }
 
 /* Fix modal mouse wheel issues */
@@ -485,4 +485,5 @@ h2.portfolio {
 h2.about {
     color: #fdfb75;
 }
+
 
