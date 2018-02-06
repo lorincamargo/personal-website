@@ -15,6 +15,18 @@
         <link rel="stylesheet" href="./libs/css/font-awesome-4.7.0/css/font-awesome.min.css">
         <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
         <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+        <!-- Slick Carousel CSS. -->
+        <link rel="stylesheet" href="./libs/slick-1.8.0/slick.css">
+        <link rel="stylesheet" href="./libs/slick-1.8.0/slick-theme.css">
+        <style>
+            .slick-prev:before {
+                color: black;
+            }
+            .slick-next:before {
+                color: black;
+            }
+        </style>
     </head>
 
     <body id="page-top" class="index">
@@ -81,6 +93,7 @@
                 </div>
                 <div class="row">
 
+                    <div class="items">
                         <div class="col-sm-4 portfolio-item">
                             <a href="#portfolioModal-1" class="portfolio-link" data-toggle="modal">
                                 <div class="caption">
@@ -212,7 +225,7 @@
                                 <img src="img/portfolio/lh-icon-fit.png" class="img-responsive" alt="image-alt">
                             </a>
                         </div>
-
+                    </div>
                 </div>
             </div>
         </section>
@@ -880,5 +893,15 @@
 
         <!-- Custom Theme JavaScript -->
         <script src="./libs/js/freelancer.js"></script>
+
+        <!-- Slick. -->
+        <script src="./libs/slick-1.8.0/slick.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('.items').slick({
+                    slidesToShow: 4
+                });
+            });
+        </script>
     </body>
 </html>
