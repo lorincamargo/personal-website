@@ -137,9 +137,7 @@
                                 <img src="img/portfolio/no-code-present.png" class="img-responsive" alt="image-alt">
                             </a>
                         </div>
-                    </div>
 
-                    <div class="items2">
                         <div class="col-sm-4 portfolio-item">
                             <a href="#portfolioModal-5" class="portfolio-link" data-toggle="modal">
                                 <div class="caption">
@@ -183,9 +181,7 @@
                                 <img src="img/portfolio/wr-straight-icon.png" class="img-responsive" alt="image-alt">
                             </a>
                         </div>
-                    </div>
 
-                    <div class="items3">
                         <div class="col-sm-4 portfolio-item">
                             <a href="#portfolioModal-9" class="portfolio-link" data-toggle="modal">
                                 <div class="caption">
@@ -218,9 +214,7 @@
                                 <img src="img/portfolio/post-card-icon.png" class="img-responsive" alt="image-alt">
                             </a>
                         </div>
-                    </div>
 
-                    <div class="items4">
                         <div class="col-sm-4 portfolio-item">
                             <a href="#portfolioModal-12" class="portfolio-link" data-toggle="modal">
                                 <div class="caption">
@@ -231,7 +225,6 @@
                                 <img src="img/portfolio/lh-icon-fit.png" class="img-responsive" alt="image-alt">
                             </a>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -905,48 +898,38 @@
         <!-- Slick. -->
         <script src="./libs/slick-1.8.0/slick.min.js"></script>
         <script type="text/javascript">
-            $(document).ready(function() {
-                $('.items').slick({
-                    slidesToShow: 3
-                });
-                $('.items2').slick({
-                    slidesToShow: 3
-                });
-                $('.items3').slick({
-                    slidesToShow: 3
-                });
-                $('.items4').slick({
-                    slidesToShow: 3,
-
-        responsive: [{
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    infinite: true,
-                    dots: true
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
-        ]
-                });
+        $(document).ready(function() {
+            $('.items').slick({
+                slidesToShow: 3,
+                responsive: [{
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
             });
+        });
 
         </script>
     </body>
