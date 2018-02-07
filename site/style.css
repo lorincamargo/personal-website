@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #f8f68c;
+    color: #030303;
 }
 
 h1,
@@ -500,4 +500,14 @@ h2.about {
 
 .items4 {
     margin: 0 30px;
+}
+
+.category-title {
+    text-align: left;
+}
+
+.icon-caption {
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
 }
