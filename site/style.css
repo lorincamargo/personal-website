@@ -511,3 +511,8 @@ h2.about {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
 }
+
+@media (max-width: 800px) {
+    .category-title {
+        text-align: center;
+    }
