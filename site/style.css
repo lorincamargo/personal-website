@@ -68,11 +68,11 @@ hr.star-light:after {
 }
 
 hr.star-primary {
-    border-color: #3d194b;
+    border-color: rgb(22, 113, 218);
 }
 
 hr.star-primary:after {
-    color: #3d194b;
+    color: rgb(22, 113, 218);
     background-color: #fff;
 }
 
@@ -319,7 +319,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #3d194b;
+    color: rgb(22, 113, 218);
 }
 
 form .row:first-child .floating-label-form-group {
@@ -521,4 +521,25 @@ h2.about {
 
 .index {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active {
+    background-color: rgb(85, 224, 131);
+    border-color: rgb(85, 224, 131);
+}
+
+.navbar-default
+.navbar-brand:hover,
+.navbar-default
+.navbar-brand:focus {
+    color: #fdfb75;
+}
+
+.navbar-default
+.navbar-nav>li>a:hover,
+.navbar-default
+.navbar-nav>li>a:focus {
+    color: #fdfb75;
 }
