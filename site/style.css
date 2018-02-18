@@ -543,3 +543,24 @@ h2.about {
 .navbar-nav>li>a:focus {
     color: #fdfb75;
 }
+
+.btn-default {
+    background-color: #2d2d2e;
+    border-color: #2d2d2e;
+}
+
+.btn-default:hover {
+    background-color: #e28141;
+    border-color: #e28141;
+}
+
+.btn-more {
+    background-color: rgb(85, 224, 131);
+    border-color: rgb(85, 224, 131);
+}
+
+.more {
+    text-align: left;
+    text-transform: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
