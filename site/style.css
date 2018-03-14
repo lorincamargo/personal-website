@@ -185,10 +185,9 @@ section.success {
     background: #2d2d2e;
 }
 
-section.within-success {
+.a-container {
     color: #2d2d2e;
     background: #fff;
-    margin: none;
 }
 
 @media(max-width:767px) {
